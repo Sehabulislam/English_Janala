@@ -4,7 +4,7 @@
     // };
     function pronounceWord(word) {
         const utterance = new SpeechSynthesisUtterance(word);
-        utterance.lang = "en-US";// English
+        utterance.lang = "hi-IN";// English
         window.speechSynthesis.speak(utterance);
 }
     
