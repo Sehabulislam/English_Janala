@@ -158,7 +158,7 @@
     }
 loadLesson();
 
-document.getElementById("btn-search").addEventListener('click',()=>{
+document.getElementById("btn-search").addEventListener('click',(e)=>{
     removeActive()
     const input = document.getElementById("input-search")
     const searchValue = input.value.trim().toLowerCase();
